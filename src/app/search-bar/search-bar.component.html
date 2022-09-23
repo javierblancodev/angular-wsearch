@@ -1,0 +1,5 @@
+<!-- <input #inputBox (input)="onInput(inputBox.value)"/> -->
+<form (submit)="onFormSubmit($event)">
+    <input #inputBox (input)="term = inputBox.value"/>
+
+</form>
